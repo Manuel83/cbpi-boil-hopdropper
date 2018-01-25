@@ -1,5 +1,5 @@
-# cbpi-boil-hopdropper
-CraftBeerPi Boil Step with Hop Dropper Actor
+# CraftBeerPi Boil Step with Hop Dropper Actor
+
 
 ## Setup Hop Dropper Actor
 First you need to setup a hop dropper actor. Select a GPIO and set a time out. 
