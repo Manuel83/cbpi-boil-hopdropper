@@ -102,8 +102,8 @@ class HopDropperActor(ActorBase):
         def toggleTimeJob(id, t):
             self.api.socketio.sleep(t)
             self.api.switch_actor_off(int(id))
-
-        t = self.api.socketio.start_background_task(target=toggleTimeJob, id=self.id, t=2)
+        
+        t = self.api.socketio.start_background_task(target=toggleTimeJob, id=self.id, t=self.timeout)
         GPIO.output(int(self.gpio), 1)
 
     def off(self):
