@@ -95,7 +95,7 @@ class HopDropperActor(ActorBase):
 
     def init(self):
         GPIO.setup(int(self.gpio), GPIO.OUT)
-        GPIO.output(int(self.gpio), 1)
+        GPIO.output(int(self.gpio), 0)
 
 
     def on(self, power=0):
