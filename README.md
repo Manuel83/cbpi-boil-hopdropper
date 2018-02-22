@@ -11,4 +11,4 @@ Future improvement would be to control a servo motor
 ## Setup Boil Step
 Select the hop dropper actor for the boil step. For each hop alert the actor will be switched on and after the timeout (see actor config) switched off
 
-![alt text](https://github.com/Manuel83/cbpi-boil-hopdropper/raw/master/BoilStepWithHopDropper.png)
+![alt text](https://github.com/Manuel83/cbpi-boil-hopdropper/raw/master/BoilStepWithHopDropper-2.png)
