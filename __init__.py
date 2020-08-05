@@ -7,7 +7,7 @@ try:
 
     GPIO.setmode(GPIO.BCM)
 except Exception as e:
-    print e
+    print(e)
     pass
 
 
@@ -102,7 +102,7 @@ class BoilStepWithHopDropper(StepBase):
         # Check if timer finished and go to next step
         if self.is_timer_finished() == True:
             self.notify("Boil Step Completed!", "Starting the next step", timeout=None)
-            self.next()
+            next(self)
 
 
 @cbpi.actor
